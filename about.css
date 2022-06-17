@@ -1,0 +1,70 @@
+header {
+    position: static;
+    background-color: rgb(97, 91, 91);
+}
+main h1 {
+    background: linear-gradient(45deg, rgb(227, 255, 253), rgb(202, 243, 240));
+    margin: 0;
+    padding: 2rem;
+    text-align: center;
+    color: rgb(246, 144, 48);
+    font-family: 'Oleo script',sans-serif;
+    font-size: 3rem;
+}
+
+.travel-content {
+    font-family: 'Raleway',sans-serif;
+    background: linear-gradient(45deg, rgb(227, 255, 253), rgb(202, 243, 240));
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+#card-container {
+    margin: 2px 100px 2px 0;
+    width: 90%;
+}
+.card-content {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1px solid rgb(243, 235, 235);
+    box-shadow: 1px 1px rgb(202, 243, 240);
+    margin-bottom: 30px;
+}
+.card-content h2 {
+    text-align: center;
+}
+.card-content img {
+    width: 100%;
+    height: 16rem;
+    object-fit: cover;
+}
+
+.card-content a {
+    text-decoration: none;
+    font-weight: 100;
+    color: rgba(238, 162, 19, 0.9);
+    margin: 10px 20px;
+    padding: 5px;
+    font-size: 28px;
+    text-shadow: 1px .5px .5px rgb(233, 196, 126);
+    font-family: 'Courgette', sans-serif;
+}
+
+.about-content p {
+    font-size: 24px;
+    color: rgb(75, 65, 68);
+    margin: 1rem 5rem;
+    padding: 1rem 0;
+    text-align: justify;
+}
+.about-content ul {
+    list-style: inherit;
+    list-style-type: square;
+    margin: 1rem 8rem;
+    padding: 1rem 0;
+    color: rgb(246, 144, 48);
+    text-align: cleft;
+    font-size: 24px;
+    text-align: justify;
+}
