@@ -1,0 +1,166 @@
+@media screen and (max-width: 768px) {
+    #hero {
+        width: 100%;
+        height: 400px;
+    }
+    
+    .hero-container {
+        width: 80%;
+        padding: 20px 10px;
+    }
+
+    .hero-container h1 {
+        font-size: 20px;
+    }
+    
+    .hero-container p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    
+    .hero-container a {
+        font-size: 16px;
+    }
+
+    #highlights{
+        width: 100%;
+    }
+
+    #highlights h2 {
+        font-size: 30px;
+    }
+    
+    #destinations {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+    
+    .destination {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .destination p {
+        text-align: center;
+        font-size: 18px;
+        color: rgb(124, 123, 123);
+        margin: 10px;
+    }
+    
+    .destination img {
+        height: 240px;
+        width: 100%;
+    }
+    
+    #places ul {
+        display: flex;
+        flex-direction: column;
+        margin: 10px auto;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #side-drawer{
+        background: rgb(65, 61, 61);
+    }
+
+    #side-drawer li a {
+        text-decoration: none;
+        font-size: 20px;
+        background-color: unset;
+        color: rgb(237, 145, 46);
+    }
+    
+    li:nth-of-type(3), li:nth-of-type(6) {
+        grid-column: auto;
+        width: 100%;
+    }
+
+    #places li {
+        display: flex;
+        flex-direction: column;
+        border-radius: 6px;
+        overflow: hidden;
+    }
+    
+    #places li img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    #page-logo a {
+        font-size: 22px;
+        padding: 10px;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    .menu-btn span {
+        display: block;
+        background-color: rgb(253, 139, 25);
+        width: 100%;
+        height: 3px;
+    }
+
+    #header-nav {
+        display: none;
+    }
+
+    #about h1 {
+        font-size: 2rem;
+    }
+
+    .travel-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    #card-container {
+        margin: 10px auto;
+        width: 70%;
+    }
+
+    .card-content img {
+        width: 100%;
+        height: 10rem;
+    }
+
+    .card-content a {
+        margin: 0;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .about-content p {
+        font-size: 16px;
+        margin: 0 auto;
+        width: 80%;
+        padding: 10px;
+    }
+
+    .about-content ul {
+        margin: 10px auto;
+        padding: 10px;
+        width: 70%;
+        font-size: 16px;
+        text-align: start;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    footer li {
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+    }
+}
